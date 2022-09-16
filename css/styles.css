@@ -61,13 +61,13 @@ body {
 	letter-spacing: 0.02em;
 }
 .nav-list {
+}
+.nav-link {
 	color: var(--main-color);
 }
 .nav-link:hover,
 .nav-link:focus {
 	color: var(--brand-color);
-}
-.nav-link {
 }
 .current {
 	color: var(--brand-color);
