@@ -227,9 +227,16 @@ body {
 	font-size: 14px;
 	line-height: 1.71;
 }
-.address-link-style {
+
+.address-map {
 	color: var(--additional-color);
 }
 .address-link {
 	color: rgba(255, 255, 255, 0.6);
+}
+.address-map:hover,
+.address-map:focus,
+.address-link:hover,
+.address-link:focus {
+	color: var(--brand-color);
 }
